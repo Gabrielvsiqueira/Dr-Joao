@@ -1,8 +1,25 @@
 @import "tailwindcss";
 
-:root {
-  margin: 0;
-  padding: 0;
+header {
+  background-image: url(../img/capa.png);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+  width: 100%;
 }
 
-  
+.main-content {
+  color: #FFFBDE;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem;
+  gap: 9rem;
+}
