@@ -1,30 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/src/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400..900&display=swap" />
   </head>
   <body>
-    <header>
-      <div  class="flex items-start justify-center p-8">
-        <img src="./img/logo-1.png" alt="logotipo Dr João Miranda">
-      </div>
-      <div class="main-content">
-          <div class="text-content">
-            <h1 class="font-playfair text-8xl font-light"> Dr João Miranda Junior</h1>
-            <p class="text-3xl"> Reconhecido no cenário médico catarinense pelo profisionalismo, dedicação aos pacientes e atendimento humanizado.</p>
-            <button type="button" class="text-white bg-gradient-to-r from-green-400 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-">Agendar Consulta</button>
+    <header class="hero-header">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col">
+        <div class="flex-shrink-0 p-8 flex justify-center md:justify-center">
+          <img src="./img/logo-1.png" alt="logotipo Dr João Miranda" class="h-12" />
+        </div>
+        <div class="flex-grow flex items-center">
+          <div
+            class="w-full flex flex-col md:flex-row justify-between items-center gap-8" >
 
+            <div
+              class="text-center md:text-left md:w-1/2 flex flex-col items-center md:items-start gap-9" >
+              <h1 class="font-playfair text-5xl md:text-7xl font-light">  Dr. João Miranda Junior </h1>
+              <p class="text-xl md:text-3xl max-w-xl"> Reconhecido no cenário médico catarinense pelo profissionalismo,  dedicação aos pacientes e atendimento humanizado. </p>
+              <div class="btn-agendar">
+                <button type="button"
+                  class="text-white bg-gradient-to-r from-green-400 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-8 py-3 text-center">
+                  Agendar Consulta </button>
+              </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+              <img  src="./img/perfil 1.png"
+                alt="foto perfil corpo todo, de jaleco do dr joão"
+                class="max-h-[80vh] object-contain"
+              />
+            </div>
           </div>
-        <img src="./img/perfil 1.png" alt="foto perfil corpo todo, de jaleco do dr joão">
-        
+        </div>
       </div>
-  </header>
+    </header>
+    <main>
+      <p>teste</p>
+    </main>
   </body>
-  </html>
+</html>
