@@ -22,8 +22,19 @@ header img {
 }
 
 main {
-  background-image: url(../img/background.png);
+  background-color: #A6A6A6;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #262626;
+}
+
+.content p{
+  font-weight: 400;
+  text-align:justify;
+  font-size: 1.4rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 2.4rem;
 }
