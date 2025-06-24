@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400..900&display=swap" />
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:wght@400..900&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
@@ -42,12 +43,12 @@
       </div>
     </div>
   </header>
-  <main class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
-    <div class="flex flex-col md:flex-row justify-center pt-20 mb-9 items-center md:items-start md:gap-8">
+  <main>
+    <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:gap-8 bg-[#A6A6A6] py-16">
       <img src="./img/foto2.jpg" alt="foto 2"
-        class="max-w-full md:max-w-lg lg:max-w-xl rounded-lg shadow-xl/30 mb-6 md:mb-0" />
+        class="max-w-full pl-7 md:max-w-lg lg:max-w-xl rounded-lg shadow-xl/30 mb-6 md:mb-0" />
       <div class="content">
-        <h1 class="font-playfair text-5xl md:text-6xl font-medium p-8 m-2 text-center md:text-left">
+        <h1 class="font-playfair text-5xl md:text-6xl font-medium p-8 m-2 text-center md:text-left pt-10">
           História e Formação
         </h1>
         <p class="text-lg leading-relaxed px-4 md:px-0">
@@ -65,7 +66,43 @@
           type="button"> Saiba Mais </button>
       </div>
     </div>
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-10 bg-cover bg-center bg-no-repeat p-6 py-16"
+      style="background-image: url('../img/capa.png');">
+      <div class="card">
+        <div class="card-details">
+          <p class="text-title">Cuida do Vô</p>
+          <p class="text-body">O Dr. João criou o Projeto Cuida do Vô para transformar a forma como vemos a velhice.
+            <br>
+            Ele compartilha materiais e vídeos que capacitam cuidadores e famílias, mostrando que envelhecer não é uma
+            doença, mas uma fase da vida que merece qualidade e carinho.<br> Com mais de 50 mil visualizações nas redes
+            sociais, o projeto oferece informações valiosas sobre dicas para o dia a dia, uso de medicamentos e doenças
+            comuns na geriatria.</p>
+        </div>
+        <button class="card-button">Saiba mais</button>
+      </div>
+
+      <div class="card">
+        <div class="card-details">
+          <p class="text-title">O que você encontra aqui:</p>
+          <ul class="py-3 px-1.5 text-gray-200">
+            <li>
+              <strong>Doenças Comuns:</strong> Informações sobre Alzheimer, Parkinson, osteoporose e outras condições.
+            </li>
+            <li>
+              <strong>Saúde Mental:</strong> Promovendo o bem-estar e prevenindo a depressão na terceira idade.
+            </li>
+            <li>
+              <strong>Guia de Medicamentos:</strong> Orientações para a administração correta e segura.
+            </li>
+            <li>
+              <strong>Para Cuidadores:</strong> Suporte e recursos para quem cuida, focando no seu bem-estar.
+            </li>
+          </ul>
+        </div>
+        <button class="card-button">conheça o projeto</button>
+      </div>
+    </div>
   </main>
 </body>
-
+<script src="../Dr-joao/src/main.js"></script>
 </html>
