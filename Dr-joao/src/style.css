@@ -38,7 +38,6 @@ main {
   line-height: 2.4rem;
 }
 
-/* From Uiverse.io by alexruix */
 .card {
   width: 370px;
   height: 50vh;
@@ -46,7 +45,7 @@ main {
   background: #044C45;
   position: relative;
   padding: 1.8rem;
-  border: 2px solid #e4e4e4;
+  border: 2px solid #0e3403;
   transition: 0.5s ease-out;
   overflow: visible;
 }
@@ -54,7 +53,7 @@ main {
 .card-details {
   color: #d2d2d2;
   height: 100%;
-  gap: .5em;
+  gap: 0.5em;
   display: grid;
   place-content: center;
 }
@@ -79,7 +78,6 @@ main {
   color: rgb(226, 226, 226);
     font-family: 'Arial', sans-serif;
 }
-
 
 .text-title {
   font-family: "Playfair Display", serif;
