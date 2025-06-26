@@ -38,6 +38,9 @@ main {
   line-height: 2.4rem;
 }
 
+.content-card {
+  background-image: url(../img/capa.png);
+}
 .card {
   width: 370px;
   height: 50vh;
