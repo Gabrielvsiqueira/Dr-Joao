@@ -10,6 +10,9 @@ header {
   color: #fffbde;
 }
 
+img.rounded-md {
+  border-radius: 0.375rem !important; /* Equivalente a 6px, força o estilo */
+}
 
 .font-playfair {
   font-family: "Playfair Display", serif;
@@ -57,7 +60,6 @@ main {
   display: grid;
   place-content: center;
 }
-
 .card-button {
   transform: translate(-50%, 125%);
   width: 60%;
