@@ -31,11 +31,11 @@ main {
 .content p{
   font-weight: 400;
   text-align:justify;
-  font-size: 1.4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.4rem; /* 22.4px - pode ser grande para mobile */
+  padding-left: 2rem; /* 32px */
+  padding-right: 2rem; /* 32px */
+  padding-bottom: 2rem; /* 32px */
+  line-height: 2.4rem; /* 38.4px */
 }
 
 .content-card {
