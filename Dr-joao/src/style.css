@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.hero-header {
+header {
   background-image: url(../img/capa.png);
   background-size: cover;
   background-position: center;
@@ -8,8 +8,11 @@
   height: 100vh;
   width: 100%;
   color: #fffbde;
+  background-attachment: fixed; 
+   @media screen and (max-width: 768px) {
+    background-attachment: scroll; 
+  } 
 }
-
 img.rounded-md {
   border-radius: 0.375rem !important; /* Equivalente a 6px, força o estilo */
 }
@@ -22,20 +25,12 @@ img.rounded-md {
 }
 
 main {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: #262626;
 }
 
 .content p{
   font-weight: 400;
   text-align:justify;
-  font-size: 1.4rem; /* 22.4px - pode ser grande para mobile */
-  padding-left: 2rem; /* 32px */
-  padding-right: 2rem; /* 32px */
-  padding-bottom: 2rem; /* 32px */
-  line-height: 2.4rem; /* 38.4px */
 }
 
 .content-card {
@@ -43,7 +38,7 @@ main {
 }
 .card {
   width: 370px;
-  height: 50vh;
+  height: 50vh; /* Cuidado com alturas fixas em mobile, considere max-h */
   border-radius: 20px;
   background: #044C45;
   position: relative;
