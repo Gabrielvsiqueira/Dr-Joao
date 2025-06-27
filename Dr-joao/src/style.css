@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-header {
+.hero-header {
   background-image: url(../img/capa.png);
   background-size: cover;
   background-position: center;
